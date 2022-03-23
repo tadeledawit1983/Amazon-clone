@@ -25,7 +25,7 @@ function Product({ id, title, image, price, rating }) {
                 <span>{title}</span>
                 <span className="product__price">
                     <small>$</small>
-                    <strong>{price}</strong>
+                    <strong>{price}<sup>99</sup></strong>
                 </span>
                 <div className="product__rating">
                     {Array(rating)

@@ -53,10 +53,10 @@ function Home() {
                 <div className="home__row dd">
                     <Product
                         id="6"
-                        title='POLY & BARK Calle 75" Apartment Sofa in Full-Grain Pure-Aniline Italian Leather, Cognac Tan/Black'
-                        price={1899}
-                        rating={4}
-                        image="https://m.media-amazon.com/images/I/81oG8RvsBrL._AC_SL1500_.jpg"
+                        title='Amazon Brand – Stone & Beam Bradbury Chesterfield Tufted Loveseat Sofa Couch, 78.7"W, Slate'
+                        price={1088}
+                        rating={5}
+                        image="https://m.media-amazon.com/images/I/71llB9ktEhL._AC_SL1500_.jpg"
                     />jpg
                 </div>
                 <div className="home__row">

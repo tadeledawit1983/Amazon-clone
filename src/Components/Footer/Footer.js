@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div className="container">
                 <footer className="row">
-                    <div className="col-sm-12 col-md">
+                    <div className="col-sm-4 col-md-4">
                         <h3 className="Links-title">Get to Know Us</h3>
                         <ul className="links-wrapper">
                             <Link to='/'><li>Careers</li></Link>
@@ -23,7 +23,7 @@ const Footer = () => {
                             <Link to='/'><li>Amazon Scince</li></Link>
                         </ul>
                     </div>ƒ
-                    <div className="col-sm-12 col-md">
+                    <div className="col-sm-4 col-md-4">
                         <h3 className="Links-title">Make Money With Us</h3>
                         <ul className="links-wrapper">
                             <Link to='/'><li>Sell Products on Amazon</li></Link>
@@ -37,7 +37,7 @@ const Footer = () => {
                             <Link to='/'><li>See More Ways to Make Money</li></Link>
                         </ul>
                     </div>
-                    <div className="col-sm-12 col-md">
+                    <div className="col-sm-4 col-md-4">
                         <h3 className="Links-title">Amazon Payment Products</h3>
                         <ul className="links-wrapper">
                             <Link to='/'><li>Amazon Rewards Visa Signiture Cards</li></Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-sm-12 col-md">
+                    <div className="col-sm-4 col-md-4">
                         <h3 className="Links-title">Let Us Help You</h3>
                         <ul className="links-wrapper">
                             <Link to='/'><li>Amazon and Covid-19</li></Link>

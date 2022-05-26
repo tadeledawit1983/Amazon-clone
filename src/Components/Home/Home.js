@@ -1,15 +1,37 @@
 import React from 'react';
 import './home.css';
 import Product from '../products/Product';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 function Home() {
     return (
         <div className="home">
             <div className="home__container">
-                <img
+
+                <Carousel
                     className="home__image"
-                    src="https://images-na.ssl-images-amazon.com/images/G/01/SBP/2020/Lemonade_Refresh/Shop_Local_New/SB_LS2020_Refresh_ShopLocal_Subpage_Hero_Desktop.png"
-                    alt=""
-                />
+                    showTumbs={false}
+                    autoPlay={true}
+                    // interval={3000}
+                    infiniteLoop
+                    showArrows={true}
+                >
+                    <div>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/SBP/2020/Lemonade_Refresh/Shop_Local_New/SB_LS2020_Refresh_ShopLocal_Subpage_Hero_Desktop.png" />
+                    </div>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61QMMnpL25L._SX3000_.jpg" />
+                    </div>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61+TYtQJxeL._SX3000_.jpg" />
+                    </div>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61u8LG1w3mL._SX3000_.jpg" />
+                    </div>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61g4qanaPoL._SX3740_.jpg" />
+                    </div>
+                </Carousel>
                 <div className="home__row">
                     <Product
                         id="1"
